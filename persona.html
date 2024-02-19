@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Persona Creation Template</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #f2f2f2;
+            text-align: left;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Persona Creation Template</h2>
+        <table>
+            <tr>
+                <th colspan="2">Basic Information</th>
+            </tr>
+            <tr>
+                <td>Name</td>
+                <td id="name">[Persona Name]</td>
+            </tr>
+            <tr>
+                <td>Age</td>
+                <td id="age">[Age]</td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td id="gender">[Gender]</td>
+            </tr>
+            <tr>
+                <td>Occupation</td>
+                <td id="occupation">[Occupation]</td>
+            </tr>
+            <tr>
+                <td>Location</td>
+                <td id="location">[Location]</td>
+            </tr>
+            <tr>
+                <th colspan="2">Background</th>
+            </tr>
+            <tr>
+                <td colspan="2" id="background">[Briefly describe the persona's background]</td>
+            </tr>
+            <tr>
+                <th colspan="2">Goals and Objectives</th>
+            </tr>
+            <tr>
+                <td>Primary Goal</td>
+                <td id="primary-goal">[Main goal or objective]</td>
+            </tr>
+            <tr>
+                <td>Secondary Goals</td>
+                <td id="secondary-goals">[Additional goals or objectives]</td>
+            </tr>
+            <tr>
+                <th colspan="2">Challenges and Pain Points</th>
+            </tr>
+            <tr>
+                <td>Challenges</td>
+                <td id="challenges">[Challenges or obstacles]</td>
+            </tr>
+            <tr>
+                <td>Pain Points</td>
+                <td id="pain-points">[Frustrations or pain points]</td>
+            </tr>
+            <tr>
+                <th colspan="2">Behaviors and Preferences</th>
+            </tr>
+            <tr>
+                <td>Behaviors</td>
+                <td id="behaviors">[Typical behaviors and preferences]</td>
+            </tr>
+            <tr>
+                <td>Technology Usage</td>
+                <td id="technology-usage">[How technology is used]</td>
+            </tr>
+            <tr>
+                <th colspan="2">Additional Information</th>
+            </tr>
+            <tr>
+                <td>Hobbies/Interests</td>
+                <td id="hobbies-interests">[Hobbies or interests]</td>
+            </tr>
+            <tr>
+                <td>Values</td>
+                <td id="values">[Important values or beliefs]</td>
+            </tr>
+            <tr>
+                <td>Other</td>
+                <td id="other">[Other relevant information]</td>
+            </tr>
+            <tr>
+                <th colspan="2">Quote</th>
+            </tr>
+            <tr>
+                <td colspan="2" id="quote">[Persona's Quote]</td>
+            </tr>
+        </table>
+    </div>
+
+    <script>
+        document.getElementById("name").innerText = prompt("Enter persona's name:");
+        document.getElementById("age").innerText = prompt("Enter persona's age:");
+        document.getElementById("gender").innerText = prompt("Enter persona's gender:");
+        document.getElementById("occupation").innerText = prompt("Enter persona's occupation:");
+        document.getElementById("location").innerText = prompt("Enter persona's location:");
+        document.getElementById("background").innerText = prompt("Briefly describe the persona's background:");
+        document.getElementById("primary-goal").innerText = prompt("Enter persona's primary goal or objective:");
+        document.getElementById("secondary-goals").innerText = prompt("Enter persona's secondary goals:");
+        document.getElementById("challenges").innerText = prompt("Enter persona's challenges or obstacles:");
+        document.getElementById("pain-points").innerText = prompt("Enter persona's frustrations or pain points:");
+        document.getElementById("behaviors").innerText = prompt("Enter persona's typical behaviors and preferences:");
+        document.getElementById("technology-usage").innerText = prompt("Enter persona's technology usage:");
+        document.getElementById("hobbies-interests").innerText = prompt("Enter persona's hobbies or interests:");
+        document.getElementById("values").innerText = prompt("Enter persona's important values or beliefs:");
+        document.getElementById("other").innerText = prompt("Enter any other relevant information about the persona:");
+        document.getElementById("quote").innerText = prompt("Enter a quote from the persona:");
+    </script>
+</body>
+</html>
+
